@@ -3,7 +3,6 @@
   "outputDirectory": "public",
   "devCommand": "php artisan serve",
   "installCommand": "composer install --no-dev --optimize-autoloader && npm ci",
-  "framework": "php",
   "regions": ["iad1"],
   "functions": {
     "api/index.php": {
