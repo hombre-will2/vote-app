@@ -5,8 +5,8 @@
   "installCommand": "composer install --no-dev --optimize-autoloader && npm ci",
   "regions": ["iad1"],
   "functions": {
-    "api/index.php": {
-      "runtime": "php-8.2"
+    "api/*.php": {
+      "runtime": "php@8.2"
     }
   },
   "rewrites": [
