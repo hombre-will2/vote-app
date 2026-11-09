@@ -18,6 +18,9 @@ Route::view('/', 'welcome')->name('accueil');
 Route::view('/categories', 'categories')->name('categories');
 Route::view('/contribuer', 'contribuer')->name('contribuer');
 
+// --- 🔐 Neon Auth Test ---
+Route::view('/auth/test', 'auth.neon-test')->name('auth.neon-test');
+
 // --- ✍️ Pré-nominations publiques ---
 Route::get('/pre-nominations', [PreNominationController::class, 'index'])->name('pre-nominations');
 Route::post('/pre-nominations/submit', [PreNominationController::class, 'submit'])->name('pre-nominations.submit');
