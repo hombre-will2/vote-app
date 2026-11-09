@@ -4,11 +4,6 @@
   "devCommand": "php artisan serve",
   "installCommand": "composer install --no-dev --optimize-autoloader && npm ci",
   "regions": ["iad1"],
-  "functions": {
-    "api/*.php": {
-      "runtime": "now-php@1.0.0"
-    }
-  },
   "rewrites": [
     {
       "source": "/(.*)",
