@@ -7,7 +7,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/index.php"
+      "destination": "/public/index.php"
     }
   ],
   "env": {
